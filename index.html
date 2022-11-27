@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Ios Calculator</title>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <input type="text" id="res" placeholder="0">
+      <div class="items-container">
+        <div class="items">
+          <button class="item light__color" onclick="Clear()">C</button>
+          <button class="item light__color" onclick="display('±')">+/-</button>
+          <button class="item light__color" onclick="display('%')">%</button>
+          <button class="item orange__color" onclick="display('/')">/</button>
+          <button class="item dark__color numbers" onclick="display(7)">7</button>
+          <button class="item dark__color numbers" onclick="display(8)">8</button>
+          <button class="item dark__color numbers" onclick="display(9)">9</button>
+          <button class="item orange__color" onclick="display('*')">X</button>
+          <button class="item dark__color numbers" onclick="display(4)">4</button>
+          <button class="item dark__color numbers" onclick="display(5)">5</button>
+          <button class="item dark__color numbers" onclick="display(6)">6</button>
+          <button class="item orange__color" onclick="display('-')">-</button>
+          <button class="item dark__color numbers" onclick="display(1)">1</button>
+          <button class="item dark__color numbers" onclick="display(2)">2</button>
+          <button class="item dark__color numbers" onclick="display(3)">3</button>
+          <button class="item orange__color" onclick="display('+')">+</button>
+          <button class="item dark__color zero numbers" onclick="display(0)">0</button>
+          <button class="item dark__color" onclick="display('.')">.</button>
+          <button class="item orange__color" onclick="equal()">=</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
